@@ -28,12 +28,6 @@ $name = $dir_path . "/post.jpg";
 
 imagejpeg($post, $name);
 
-
-$type = pathinfo($name, PATHINFO_EXTENSION);
-$data = file_get_contents($name);
-
-$base64 = "data:image/" . $type . ";base64," . base64_encode($data);
-
 echo $name;
 
 imagedestroy($post);

@@ -10,9 +10,9 @@
 	function auth() {
 		VK.Auth.getLoginStatus(function (response) {
 			if (response.session) {
-				startGlitch();
+				startGlitch(); // if login
 			} else {
-				VK.Auth.login(startGlitch, 6);
+				VK.Auth.login(startGlitch, 6); // if not login
 			}
 		});
 	}
@@ -20,7 +20,7 @@
 	function startGlitch() {
 		$("#glitchButton").fadeOut();
 
-		var urls = [];
+		var urls = []; //list urls of photos
 
 		$("#loader").show();
 
@@ -30,15 +30,15 @@
 			order: "random"
 		}, function (r) {
 			r = r.response;
-			if (!r)
+			if (!r) // if VK not response
 			{
-				startGlitch();
+				startGlitch(); // then repeat startGlitch
 				return;
 			}
 			for (var i = 0; i < r.length; i++)
-				urls.push(r[i].photo_100);
+				urls.push(r[i].photo_100); //save photo url
 
-			$.ajax("glitch.php",
+			$.ajax("glitch.php", //get modifited photos
 			{
 				type: "post",
 				success: imagesGetted,
@@ -53,6 +53,7 @@
 		data = eval(data);
 		var $imgsWrapper = $("#imagesWrapper");
 
+		//append glitched photos
 		for (var key in data)
 		{
 			var $img = $("<img>")
@@ -63,14 +64,11 @@
 		}
 
 
-		$imgsWrapper
-			.children()
-				.last()
-					.on("load", function () {
-						$("#buttonGroup").show();
-						$imgsWrapper.fadeIn();
-					});
+		$("#buttonGroup").show();
 
+		$imgsWrapper.fadeIn();
+
+		//if window closing then delete user photos from server
 		$(window).on("unload", $.proxy(deleteImgsFromServer, this, false));
 	}
 
@@ -81,17 +79,18 @@
 
 		$("#buttonGroup").hide();
 		$("#imagesWrapper")
-			.fadeOut(400, function() { $("#glitchButton").fadeIn(); })
+			.fadeOut()
 			.empty();
+		 $("#glitchButton").fadeIn();
 	}
 
 	function postToWall() {
 		$.ajax("merge_imgs.php", {
 			success: function (photo_url) {
 				VK.Api.call("photos.getWallUploadServer", {},
-					function (url) {
+					function (url) { //get upload url
 						url = url.response.upload_url;
-						$.ajax("post_to_wall.php",
+						$.ajax("post_to_wall.php", //download mosaic to VK
 						{
 							type: "post",
 							data: {
@@ -100,8 +99,8 @@
 							},
 							success: function (response) {
 								response = JSON.parse(response);
-								VK.Api.call("photos.saveWallPhoto", response,
-									function(res) {
+								VK.Api.call("photos.saveWallPhoto", response, //save mosaic to album in VK
+									function(res) { // post mosaic to wall
 										VK.Api.call("wall.post", {
 											attachments: [res.response[0].id,"http://edu.oggettoweb.ru/backend/"],
 											message: "GLITCH EM Website"
