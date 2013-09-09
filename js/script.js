@@ -1,12 +1,22 @@
 (function () {
 	VK.init({ apiId: 3863940 });
 
-	$("#glitchButton").on("click", $.proxy(VK.Auth.login, this, startGlitch, 6));
+	$("#glitchButton").on("click", auth);
+
 	$("#buttonGroup")
 		.on("click", "#backButton", goBack)
 		.on("click", "#postToWallBtn", postToWall);
 
-	
+	function auth() {
+		VK.Auth.getLoginStatus(function (response) {
+			if (response.session) {
+				startGlitch();
+			} else {
+				VK.Auth.login(startGlitch, 6);
+			}
+		});
+	}
+
 	function startGlitch() {
 		$("#glitchButton").fadeOut();
 
