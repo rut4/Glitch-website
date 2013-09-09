@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+button {
+	position: absolute;
+	top: 45%;
+	left: 42%;
+	height: 10%;
+	width: 16%;
+	border: none;
+	background: black;
+	color: white;
+	font-size: 168.75%;
+	font-weight: bold;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button:active {
+	border: 2px solid #fff;
+}
+
+.images-wrapper {
+	padding: 10px;
+	width: 600px;
+	margin: auto;
+	display: none;
+}
+
+.images-wrapper img {
+	margin: 8px;
+	border: 2px solid #444;
+	width: 100px;
+	height: 100px;
+}
+
+.button-group {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	display: none;
+}
+
+.button-group div {
+	float: left; 	
+	background: #777;
+	opacity: 0.3;
+	text-align: center;
+	border-radius: 3px;
+	transition: opacity 1s;
+	margin-left: 10px;
+}
+
+.button-group div:hover {
+	cursor: pointer;
+	opacity: 0.6;
+}
+
+.button-group div:first-child {
+	margin: 0;
+}
+
+.back-button {
+	line-height: 1.12;
+	font-size: 30px;
+	font-family: Consolas;
+	width: 1.2em;
+	height: 36px;
+}
+
+.post-to-wall-button {
+	font-family: Verdana;
+	height: 26px;
+	padding: 10px 3px 0;
+}				
+
+.loader {
+	display: none;
+	margin-top: 200px;
+	text-align: center;
+}
