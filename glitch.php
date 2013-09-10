@@ -11,7 +11,7 @@ mkdir($dir);
 $urls = json_decode($_POST["urls"]);
 
 // list of images pathes on server
-$images = [];
+$images = array();
 
 foreach ($urls as $url) {
 
