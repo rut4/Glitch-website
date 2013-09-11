@@ -15,7 +15,8 @@ $images = array();
 
 foreach ($urls as $url) {
 
-    if (getimagesize($url)["2"] == 2)
+	$img_size = getimagesize($url); 
+    if ($img_size["2"] == 2)
         $img = imagecreatefromjpeg($url);
     else
         $img = imagecreatefromgif($url);
