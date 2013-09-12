@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43f47f7c-85b6-49ab-bbc2-c8396a4e7ca8" name="Default" comment="" />
+    <list default="true" id="43f47f7c-85b6-49ab-bbc2-c8396a4e7ca8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Thumbs.db" afterPath="$PROJECT_DIR$/img/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/merge_imgs.php" afterPath="$PROJECT_DIR$/merge_imgs.php" />
+    </list>
     <ignored path="PHPtest.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.php" changelist="43f47f7c-85b6-49ab-bbc2-c8396a4e7ca8" time="1378474549065" ignored="false" />
-    <file path="/fragment.php" changelist="43f47f7c-85b6-49ab-bbc2-c8396a4e7ca8" time="1378662064001" ignored="false" />
+    <file path="/fragment.php" changelist="43f47f7c-85b6-49ab-bbc2-c8396a4e7ca8" time="1378989513940" ignored="false" />
     <file path="/style.css" changelist="43f47f7c-85b6-49ab-bbc2-c8396a4e7ca8" time="1378475293713" ignored="false" />
     <file path="/glitch.php" changelist="43f47f7c-85b6-49ab-bbc2-c8396a4e7ca8" time="1378630953292" ignored="false" />
     <file path="/delete_imgs.php" changelist="43f47f7c-85b6-49ab-bbc2-c8396a4e7ca8" time="1378583643049" ignored="false" />
@@ -14,6 +17,7 @@
     <file path="/remove_imgs.php" changelist="43f47f7c-85b6-49ab-bbc2-c8396a4e7ca8" time="1378623429317" ignored="false" />
     <file path="/rem_imgs.php" changelist="43f47f7c-85b6-49ab-bbc2-c8396a4e7ca8" time="1378623426771" ignored="false" />
     <file path="/glitch1.php" changelist="43f47f7c-85b6-49ab-bbc2-c8396a4e7ca8" time="1378634325173" ignored="false" />
+    <file path="/Dummy.txt" changelist="43f47f7c-85b6-49ab-bbc2-c8396a4e7ca8" time="1378988612500" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +40,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="16" selection-start="103" selection-end="103" vertical-scroll-proportion="-0.65384614">
+            <state line="6" column="16" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -54,7 +58,7 @@
       <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="0" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0">
+            <state line="53" column="0" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -63,7 +67,7 @@
       <file leaf-file-name="post_to_wall.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/post_to_wall.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="13" selection-start="349" selection-end="349" vertical-scroll-proportion="-9.807693">
+            <state line="15" column="13" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -72,7 +76,7 @@
       <file leaf-file-name="glitch.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/glitch.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="22" selection-start="987" selection-end="987" vertical-scroll-proportion="-22.538462">
+            <state line="41" column="22" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -81,7 +85,7 @@
       <file leaf-file-name="rem_imgs.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rem_imgs.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="42" selection-start="157" selection-end="157" vertical-scroll-proportion="-3.2692308">
+            <state line="5" column="42" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -90,7 +94,7 @@
       <file leaf-file-name="merge_imgs.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/merge_imgs.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="24" selection-start="591" selection-end="591" vertical-scroll-proportion="0.752907">
+            <state line="7" column="21" selection-start="115" selection-end="115" vertical-scroll-proportion="0.1827957">
               <folding />
             </state>
           </provider>
@@ -102,6 +106,14 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -159,7 +171,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -232,20 +244,20 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propDebugger" />
-    <property name="last_opened_file_path" value="E:/php" />
+    <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="E:/php" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Эдуард\PhpstormProjects\PHPtest" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.glitch1.php">
+  <component name="RunManager" selected="PHP Script.merge">
     <configuration default="false" name="glitch1.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/glitch1.php">
       <RunnerSettings RunnerId="PhpRunner" />
       <RunnerSettings RunnerId="PhpScriptDebugRunner" />
@@ -270,9 +282,17 @@
       <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
       <method />
     </configuration>
-    <list size="2">
+    <configuration default="false" name="merge" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/merge_imgs.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
+      <method />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="PHP Script.post_to_wall" />
-      <item index="1" class="java.lang.String" itemvalue="PHP Script.glitch1.php" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Script.merge" />
+      <item index="2" class="java.lang.String" itemvalue="PHP Script.glitch1.php" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -327,23 +347,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25378788" sideWeight="0.66442955" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25757575" sideWeight="0.7114094" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33557048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5385906" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -412,6 +432,27 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/glitch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="22" selection-start="987" selection-end="987" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rem_imgs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="42" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/merge_imgs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="24" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="7" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
@@ -449,21 +490,19 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/session.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="9" selection-start="5686" selection-end="5686" vertical-scroll-proportion="0.35279804">
-          <folding />
-        </state>
+        <state line="164" column="9" selection-start="5686" selection-end="5686" vertical-scroll-proportion="0.35279804" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0">
+        <state line="53" column="0" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="16" selection-start="103" selection-end="103" vertical-scroll-proportion="-0.65384614">
+        <state line="6" column="16" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -477,28 +516,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/post_to_wall.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="349" selection-end="349" vertical-scroll-proportion="-9.807693">
+        <state line="15" column="13" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/glitch.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="22" selection-start="987" selection-end="987" vertical-scroll-proportion="-22.538462">
+        <state line="41" column="22" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rem_imgs.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="42" selection-start="157" selection-end="157" vertical-scroll-proportion="-3.2692308">
+        <state line="5" column="42" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/merge_imgs.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="24" selection-start="591" selection-end="591" vertical-scroll-proportion="0.752907">
+        <state line="7" column="21" selection-start="115" selection-end="115" vertical-scroll-proportion="0.1827957">
           <folding />
         </state>
       </provider>

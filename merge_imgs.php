@@ -7,7 +7,7 @@ $post = imagecreatetruecolor(500, 500);
 
 $dir_path = "img/" . session_id();
 
-$dir = opendir($dir_path);
+$dir = @opendir($dir_path);
 
 $file = readdir($dir);
 $file = readdir($dir);
