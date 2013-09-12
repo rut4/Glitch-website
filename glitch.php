@@ -5,7 +5,7 @@ session_start();
 $sid = session_id();
 
 $dir = "img/" . $sid;
-mkdir($dir);
+@mkdir($dir);
 
 // get list of urls of images
 $urls = json_decode($_POST["urls"]);
