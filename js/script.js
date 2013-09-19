@@ -8,21 +8,28 @@
 		.on("click", "#postToWallBtn", postToWall);
 
 	function auth() {
-		VK.Auth.getLoginStatus(function (response) {
-			if (response.session) {
-				startGlitch(); // if login
-			} else {
-				VK.Auth.login(startGlitch, 6); // if not login
-			}
-		});
+		var $button = $("#glitchButton"),
+			$loader = $("#loader");
+
+		$loader.show();
+		$button.fadeOut();
+		try {
+			VK.Auth.getLoginStatus(function (response) {
+				if (response.session) {
+					startGlitch(); // if login
+				} else {
+					VK.Auth.login(startGlitch, 6); // if not login
+				}
+			});
+		} catch(e) {
+			$button.fadeIn();
+			$loader.hide();
+		}
 	}
 
 	function startGlitch() {
-		$("#glitchButton").fadeOut();
-
+		
 		var urls = []; //list urls of photos
-
-		$("#loader").show();
 
 		VK.Api.call("friends.get", {
 			fields: ["photo_100"],
@@ -48,9 +55,16 @@
 	}
 
 	function imagesGetted(data) {
+		try {
+			data = eval(data);
+		} catch(e) {
+			startGlitch();
+			return;
+		}
+
 		$("#loader").hide();
 
-		data = eval(data);
+
 		var $imgsWrapper = $("#imagesWrapper");
 
 		//append glitched photos
